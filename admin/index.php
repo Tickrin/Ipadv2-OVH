@@ -112,7 +112,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // routine pour chercher si le mdp e
 					</tr>
 				<tr>
 					<td align="center" height="130px">
-						<span style="color:white; font-size: 2em; font-weight:bold">Séminaire connecté</span>
+						<span style="color:white; font-size: 2em; font-weight:bold">Séminaire connecté23</span>
 						<br>
 						<span style="color:#3b05ff; font-size: 2em">Administration</span>
 						
