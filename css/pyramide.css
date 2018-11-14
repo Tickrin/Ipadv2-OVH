@@ -1,0 +1,251 @@
+body { margin:0; }
+
+/*Pour le style des DIV la Pyramide*/
+
+.Pcontainer{
+display: flex;
+flex-direction: column;
+width:80%;
+/*height:80%;*/
+}
+
+.Plignes{
+	background-color: white;
+	justify-content: space-around;
+}
+
+.Pligne1{
+	background-color: white;
+	height:15%;
+	text-align: center;
+}
+
+.Pligne2{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	height:15%;
+
+}
+
+.Pligne2-1{
+	background-color: white;
+	width:50%;
+	vertical-align: text-top;
+	text-align: center;
+}
+
+.Pligne2-2{
+	background-color: white;
+	width:50%;
+	vertical-align: text-bottom;
+	text-align: center;
+}
+
+.PcontGraph{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: white;
+	height:30%;
+}
+
+.Pespace{
+	width:5%;
+	background-color: white;
+	align-items: flex-end;
+}
+
+.Pespace2{
+	width:30%;
+	background-color: white;
+	align-items: flex-end;
+}
+
+.Pnum2{
+	/*height:40%;*/
+	display: flex;
+	flex-direction: column;
+	width:20%;
+	background-color: white;
+}
+
+.num2{
+	height:40%;
+	background-color: white;
+	
+}
+
+.num2b{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	height:60%;
+	text-align: center;
+	background-color: Indigo;
+	
+}
+
+.Pnum1{
+	display: flex;
+	flex-direction: column;
+	width:20%;
+	background-color: white;
+}
+
+.num1{
+	height:10%;
+	background-color: white;
+}
+
+.num1b{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	height:90%;
+	text-align: center;
+	background-color: Indigo;
+}
+
+.Pnum3{
+	/*height:65%;*/
+	display: flex;
+	flex-direction: column;
+	width:20%;
+	background-color: white;	
+}
+
+.num3{
+	height:60%;
+	background-color: white;	
+}
+
+.num3b{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	height:40%;
+	text-align: center;
+	background-color: Indigo;	
+}
+
+.afresult{
+
+}
+
+
+.fond{
+	
+	font-family: Arial, sans-serif;
+	/*background-color: #b8d5ff;*/
+	
+}
+.container{
+display:flex;
+flex-direction: column;
+height:100%;
+/*background-color:DarkSalmon ;*/
+}
+
+.nomOp {
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-right: 30px;
+text-align: right;
+font-size: 3vw;
+}
+
+.centre{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+height:100%;
+/*background-color: grey;*/
+}
+
+.corps{
+margin-top: 10px;
+display:flex;
+justify-content: center;
+/*background-color: green;*/
+width:100%;
+flex-wrap: wrap;
+align-items:center;
+/*font-family: Arial, sans-serif;*/
+/*margin-top: 5%;*/
+}
+.question{
+	width:80%;
+	font-size:5vw;
+	font-size:5vh;
+	font-weight: bold;
+	margin-bottom: 1vh;
+	/*background-color:DarkSeaGreen;*/
+	
+}
+.ligne{
+	margin-top: -10px;
+	width:80%;
+	height:7px;
+	background-color:Indigo;
+}
+
+.espace{
+	height:25px;
+	width:80%;
+	/*background-color: gold;*/
+}
+
+.tableau{
+display: flex;
+/*background-color: gold;*/
+width:80%;
+margin-top: 15px;
+/*background-color:LightBlue;	*/
+}
+
+.proposition{
+	
+	font-size:2.5vh;
+	width:100%;
+	height:1vh;
+	/*margin-bottom: 0.2vh;*/
+	/*background-color:Khaki;*/
+}
+
+.containgraph{
+	width:80%;
+	margin-top: 10px;
+	/*background-color:GreenYellow;*/
+}
+
+.bar{
+	display:flex;
+	width: 100%;
+	height:20px;
+	/*background-color:IndianRed ;*/
+}
+
+.containbar{
+	width:90%;
+}
+
+.pourcentage{
+	background: Indigo;
+	margin-top: 10px;
+	height:20px;
+	text-align: right;
+	color:white;
+	font-size:2vw;
+	font-size:2vh;
+}
+
+.resultat{
+	height:50px;
+	font-size:3vw;
+	font-size:3vh;
+	width:10%;
+	content: "<br />";
+	/*vertical-align: middle;*/
+}
